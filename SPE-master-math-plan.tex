@@ -2,40 +2,49 @@
 %\usepackage{mycommands}
 \usepackage{mathrsfs,footnote}
 \pagestyle{empty}
+
+\voffset-0.7in
+\hoffset-0.7in
+\textwidth=35pc\textheight=734pt\parindent=0pt
+
 \begin{document}
-\section*{Mathematics for Software Engineering} 
-\subsection*{Preliminary Lecture Plan and some\\
-  Suggestions for Computer Laboratory Work}
+\section*{Mathematics for Software Engineers}
+\subsection*{Preliminary Syllabus}
+% Lecture Plan and some\\ Suggestions for Computer Laboratory Work}
 
 \vspace{3ex}
 \savenotes
-\begin{tabular}{|p{0.08\textwidth}|p{0.3\textwidth}|p{0.15\textwidth}|
-    p{0.5\textwidth}|}
+\begin{tabular}{|c|p{0.35\textwidth}|p{0.10\textwidth}|
+    p{0.4\textwidth}|}
   \hline
   Week&Lectures&Grimaldi&Lab work (suggestions)\\
   \hline % Week 1:
-  1 & Introduction & &
+  1 & Course presentation/  & & \\
+    & Introduction to Python & &
   \\
-  & Generating functions % and and recurrence relations
+  & Generating functions
   & 9 & Combinatorics via convolutions
-  \\
-  & Algorithm complexity, the $\mathcal{O}$ and NP-concepts & 5.7,8 &
-  Implement, clock and assess order complexity of sorting algorithms
+  \\ \hline
+  & Algorithm complexity \hfill\break
+    the $\mathcal{O}$ and NP-concepts & 5.7, 8 &
+  Implement, clock and assess order of complexity of sorting algorithms
   \\\hline % Week 2:
-  2 & Recurrence, Z-transf & 10 & Alg.~complexity through recurrence
+  2 & Recurrence relations & 10 & \\
+    & The Z-transform      &    & Alg.~complexity through recurrence
   \\
   \hline
-  3&Abstract algebra&14,16.1--3&\\
-  %&(Cryptology)&&(RSA Encryption\footnotemark[2])\\
-  &Elem of coding theory&16.6--& Coding examples \\
+  3 & Abstract algebra&14, 16.1-3&\\
+    & Elements of coding theory&16.6-9& Coding examples \\
   \hline
-  4&Automata, formal machines&6,7&Implementing formal machines\\
-  &Algorithmic graph theory\footnote{Partly covered in discrete
-    mathematics course}&11,12&\\
+  4& Cryptology & 16.4 &RSA encryption\footnotemark[2]\\
+   &Automata, formal machines&6, 7&Implementing formal machines\\
+  & Overview: Graph theory\footnote{Partly covered in discrete
+    mathematics course} & 11, 12 & \\
   \hline
-  5&Optimization in networks, shortest path\footnote{Covered in
-    discrete mathematics course}, minimal spanning tree\footnotemark[2],
-  maximum flow&13&Optimization in networks\\
+  5& Optimization in networks,\hfill\break
+    Shortest path\footnote{Covered in discrete mathematics course},\hfill\break
+    Minimal spanning tree\footnotemark[2],\hfill\break
+    Maximum flow&13&Optimization in networks\\
   \hline
   6&Other optimization algorithms&
   &Transportation simplex method\\
@@ -44,6 +53,13 @@
 \end{tabular}
 \spewnotes
 \vspace{3ex}
+
+\subsubsection*{Course book}
+
+Ralph P. Grimaldi,
+\emph{Discrete and Combinatorial Mathematics},
+Pearson, ISBN: 9780321211033.
+
 
 \subsubsection*{Lectures}
 The lectures cover mathematical concepts, theories and methods that
