@@ -1,0 +1,57 @@
+# Specific files:
+
+# subDirs:
+Figs
+Scan
+html
+
+# Editor backup-files:
+*~
+.*~
+.*
+
+# Swap, bak, oldfiles
+
+*.OLD
+*.old
+*.bak
+*.swp
+
+# Pdf, ps
+*.pdf
+*.ps
+
+# LaTeX-polution:
+
+*.4ct
+*.4tc
+*.aux
+*.bak
+*.dvi
+*.idv
+*.pnm
+*.lg
+*.log
+*.nav
+*.pdf
+*.ps
+*.snm
+*.tmp
+*.toc
+*.xref
+*.xrf
+
+# Images
+
+*.jpeg
+*.jpg
+*.JPG
+*.png
+
+# Ignore archives/compressed
+*.7z
+*.bz2
+*.gz
+*.tar
+*.tgz
+*.zip
